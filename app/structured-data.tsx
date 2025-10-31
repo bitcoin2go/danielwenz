@@ -109,7 +109,10 @@ export function StructuredData({
       "Bachelor Wirtschaftsingenieurwesen mit Note 1,3"
     ],
     "givenName": "Daniel",
-    "familyName": "Wenz"
+    "familyName": "Wenz",
+    "mainEntityOfPage": {
+      "@id": "https://www.danielwenz.de/#webpage"
+    }
   }
 
   const organizationSchema = {
@@ -141,6 +144,18 @@ export function StructuredData({
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "DE"
+    }
+  }
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.danielwenz.de/#webpage",
+    "url": "https://www.danielwenz.de",
+    "name": "Daniel Wenz - Offizielle Seite",
+    "inLanguage": ["de", "en"],
+    "mainEntity": {
+      "@id": "https://www.danielwenz.de/#person"
     }
   }
 
@@ -186,6 +201,12 @@ export function StructuredData({
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(personSchema)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(webPageSchema)
         }}
       />
       <script
