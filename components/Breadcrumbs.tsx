@@ -47,9 +47,12 @@ export function Breadcrumbs() {
                   <meta itemProp="position" content={(index + 1).toString()} />
                 </Link>
               ) : isLast ? (
-                <span className="text-zinc-900 dark:text-zinc-100 font-medium" itemProp="name">
-                  {crumb.name}
-                </span>
+                <>
+                  <span className="text-zinc-900 dark:text-zinc-100 font-medium" itemProp="name">
+                    {crumb.name}
+                  </span>
+                  <meta itemProp="position" content={(index + 1).toString()} />
+                </>
               ) : (
                 <>
                   <Link

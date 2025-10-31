@@ -4,8 +4,9 @@ import './globals.css'
 import { Header } from './header'
 import { Footer } from './footer'
 import { ThemeProvider } from 'next-themes'
-import { StructuredDataWrapper } from './structured-data-wrapper'
+import { StructuredData } from './structured-data'
 import { ConditionalHeader } from './conditional-header'
+import { HeadBreadcrumbs } from './head-breadcrumbs'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -42,7 +43,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" suppressHydrationWarning>
-      <head />
+      <head>
+        <StructuredData pathname="/" breadcrumbs={false} />
+        <HeadBreadcrumbs />
+      </head>
       <body
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}
       >
@@ -55,7 +59,6 @@ export default function RootLayout({
           <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
             <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
               <ConditionalHeader />
-              <StructuredDataWrapper breadcrumbs={true} />
               {children}
               <Footer />
             </div>
