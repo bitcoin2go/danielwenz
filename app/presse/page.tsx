@@ -27,59 +27,101 @@ const TRANSITION_SECTION = {
 
 // Medienauftritte nach Jahren sortiert
 const mediaAppearances = {
-  "2024": [
-    {
-      title: "Bitcoin im Höhenflug: Zwischen Rekorden, Regulierung und Reife",
-      outlet: "cash-online.de",
-      date: "März 2024",
-      link: "https://www.cash-online.de/a/bitcoin-im-hoehenflug-zwischen-rekorden-regulierung-und-reife-701142/",
-      description: "Analyse der aktuellen Bitcoin-Entwicklung und Marktlage"
-    },
-    {
-      title: "Bitcoin Halving: Das musst du darüber wissen",
-      outlet: "dasinvestment.com",
-      date: "April 2024",
-      link: "https://www.dasinvestment.com/bitcoin-halvering-das-musst-du-darueber-wissen-private-anleger/?viewall",
-      description: "Alles was private Anleger über das Bitcoin Halving wissen müssen"
-    },
-    {
-      title: "Bitcoin Halving 2024",
-      outlet: "anlegerplus.de",
-      date: "April 2024",
-      link: "https://anlegerplus.de/bitcoin-halving-2024/",
-      description: "Umfassende Analyse des Bitcoin Halving Events"
-    }
-  ],
-  "2023": [
+  "2025": [
     {
       title: "World Liberty Finance (WLFI): Was steckt hinter dem Trump-Projekt?",
       outlet: "business-punk.com",
-      date: "Dezember 2023",
+      date: "September 2025",
       link: "https://www.business-punk.com/anlagepunk/world-liberty-finance-wlfi-was-steckt-hinter-dem-trump-projekt/",
       description: "Analyse des umstrittenen Trump-bezogenen Krypto-Projekts"
     },
     {
-      title: "Kryptowährungen haben das Darknet-Image schon lange abgelegt",
-      outlet: "wirtschaftsforum.de",
-      date: "Oktober 2023",
-      link: "https://www.wirtschaftsforum.de/interviews/kryptowaehrungen-haben-das-darknet-image-schon-lange-abgelegt",
-      description: "Interview über die Entwicklung der Kryptowährungen im Mainstream"
+      title: "Bitcoin im Höhenflug: Zwischen Rekorden, Regulierung und Reife",
+      outlet: "cash-online.de",
+      date: "August 2025",
+      link: "https://www.cash-online.de/a/bitcoin-im-hoehenflug-zwischen-rekorden-regulierung-und-reife-701142/",
+      description: "Analyse der aktuellen Bitcoin-Entwicklung und Marktlage"
+    },
+    {
+      title: "Bitcoin zur Altersvorsorge: Lohnt sich das Risiko im Depot?",
+      outlet: "mypension.de",
+      date: "Mai 2025",
+      link: "https://mypension.de/bitcoin-zur-altersvorsorge-lohnt-sich-das-risiko-im-depot/",
+      description: "Beitrag zur Eignung von Bitcoin als Teil der privaten Altersvorsorge"
     }
   ],
-  "2022": [
+  "2024": [
     {
-      title: "Dezentrale Applikationen auf Ethereum",
-      outlet: "it-finanzmagazin.de",
-      date: "Juni 2022",
-      link: "https://www.it-finanzmagazin.de/dezentrale-applikationen-auf-ethereum-162590/",
-      description: "Technische Einblicke in die Ethereum-Entwicklung"
+      title: "Bitcoin2Go bei Gründer.de",
+      outlet: "gruender.de",
+      date: "Dezember 2024",
+      link: "https://www.gruender.de/verzeichnis/bitcoin2go/",
+      description: "Vorstellung von Bitcoin2Go im Gründerverzeichnis"
+    },
+    {
+      title: "Bitcoin Halving 2024",
+      outlet: "anlegerplus.de",
+      date: "Juni 2024",
+      link: "https://anlegerplus.de/bitcoin-halving-2024/",
+      description: "Umfassende Analyse des Bitcoin Halving Events"
     },
     {
       title: "Neobroker-Sicherheit: Finanzdaten im Fadenkreuz von Cyberkriminellen",
       outlet: "csoonline.com",
-      date: "März 2022",
+      date: "Februar 2024",
       link: "https://www.csoonline.com/article/3491998/neobroker-sicherheit-finanzdaten-im-fadenkreuz-von-cyberkriminellen.html",
       description: "Sicherheitsaspekte bei digitalen Finanzdienstleistungen"
+    },
+    {
+      title: "Kryptowährungen, Bitcoin & Co. als Zahlungsmittel: Das sind die Chancen und Risiken",
+      outlet: "etailment.de",
+      date: "Februar 2024",
+      link: "https://etailment.de/news/stories/kryptowaehrungen-bitcoin--co.-als-zahlungsmittel-das-sind-die-chancen-und-risiken-24676",
+      description: "Analyse zu Kryptowährungen als Zahlungsmittel im E-Commerce"
+    }
+  ],
+  "2023": [
+    {
+      title: "Bitcoin Halving: Das musst du darüber wissen",
+      outlet: "dasinvestment.com",
+      date: "November 2023",
+      link: "https://www.dasinvestment.com/bitcoin-halvering-das-musst-du-darueber-wissen-private-anleger/?viewall",
+      description: "Alles was private Anleger über das Bitcoin Halving wissen müssen"
+    },
+    {
+      title: "Bitcoin Halving 2024: On-Chain-Signale und Ausblicke",
+      outlet: "boersen-zeitung.de",
+      date: "November 2023",
+      link: "https://www.boersen-zeitung.de/banken-finanzen/bitcoin-halving-2024-on-chain-signale-und-ausblicke",
+      description: "Analyse zu On-Chain-Signalen und Ausblicken auf das Bitcoin Halving"
+    },
+    {
+      title: "Krypto-Forensik: Methoden und Tools zur Aufdeckung von Blockchain-Betrug",
+      outlet: "csoonline.com",
+      date: "Oktober 2023",
+      link: "https://www.csoonline.com/article/3495661/krypto-forensik-methoden-und-tools-zur-aufdeckung-von-blockchain-betrug.html",
+      description: "Fachbeitrag zu Methoden der Krypto-Forensik und Betrugserkennung"
+    },
+    {
+      title: "Dezentrale Applikationen auf Ethereum",
+      outlet: "it-finanzmagazin.de",
+      date: "Oktober 2023",
+      link: "https://www.it-finanzmagazin.de/dezentrale-applikationen-auf-ethereum-162590/",
+      description: "Technische Einblicke in die Ethereum-Entwicklung"
+    },
+    {
+      title: "Digitaler Wandel im Zuge von Blockchain: Ein Interview mit Bitcoin2Go",
+      outlet: "business-on.de",
+      date: "August 2023",
+      link: "https://www.business-on.de/digitaler-wandel-im-zuge-von-blockchain-ein-interview-mit-bitcoin2go.html",
+      description: "Interview über Blockchain und digitale Transformation"
+    },
+    {
+      title: "Kryptowährungen haben das Darknet-Image schon lange abgelegt",
+      outlet: "wirtschaftsforum.de",
+      date: "Juni 2023",
+      link: "https://www.wirtschaftsforum.de/interviews/kryptowaehrungen-haben-das-darknet-image-schon-lange-abgelegt",
+      description: "Interview über die Entwicklung der Kryptowährungen im Mainstream"
     }
   ]
 }

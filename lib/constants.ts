@@ -1,1 +1,1 @@
-export const WEBSITE_URL = 'https://daniel-wenz.vercel.app'
+export const WEBSITE_URL = 'https://www.danielwenz.de'

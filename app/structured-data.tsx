@@ -22,12 +22,12 @@ export function StructuredData({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://daniel-wenz.vercel.app/#website",
+    "@id": "https://www.danielwenz.de/#website",
     "name": "Daniel Wenz",
-    "url": "https://daniel-wenz.vercel.app",
+    "url": "https://www.danielwenz.de",
     "description": "Co-Founder von Finanzwissen GmbH und Founder von Bitcoin2Go. Spezialist für Kryptowährungsmärkte, Finanzanalysen und -bildung. Master-Absolvent in Wirtschaftsingenieurwesen am KIT.",
     "publisher": {
-      "@id": "https://daniel-wenz.vercel.app/#person"
+      "@id": "https://www.danielwenz.de/#person"
     },
     "inLanguage": ["de", "en"]
   }
@@ -35,13 +35,13 @@ export function StructuredData({
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://daniel-wenz.vercel.app/#person",
+    "@id": "https://www.danielwenz.de/#person",
     "name": "Daniel Wenz",
     "alternateName": "Daniel Wenz",
-    "url": "https://daniel-wenz.vercel.app",
+    "url": "https://www.danielwenz.de",
     "image": [
-      "https://daniel-wenz.vercel.app/daniel-wenz.png",
-      "https://daniel-wenz.vercel.app/daniel-wenz-und-mirco-recksiek.jpg"
+      "https://www.danielwenz.de/daniel-wenz.png",
+      "https://www.danielwenz.de/daniel-wenz-und-mirco-recksiek.jpg"
     ],
     "description": "Daniel Wenz ist ein deutscher Unternehmer und Krypto-Experte, der sich auf die Bereiche Finanzbildung und Kryptowährungen spezialisiert hat. Als Co-Founder der Finanzwissen GmbH und Founder der Bitcoin2Go GmbH hat er zwei der führenden Plattformen im deutschsprachigen Fintech-Bereich aufgebaut. Mit einem Master-Abschluss in Wirtschaftsingenieurwesen am KIT mit Note 1,0 bringt er sowohl akademische Exzellenz als auch praktische Unternehmererfahrung mit.",
     "sameAs": [
@@ -158,19 +158,19 @@ export function StructuredData({
     "image": article.image ? [article.image] : undefined,
     "author": {
       "@type": "Person",
-      "@id": "https://daniel-wenz.vercel.app/#person",
+      "@id": "https://www.danielwenz.de/#person",
       "name": article.author || "Daniel Wenz"
     },
     "publisher": {
       "@type": "Person",
-      "@id": "https://daniel-wenz.vercel.app/#person",
+      "@id": "https://www.danielwenz.de/#person",
       "name": "Daniel Wenz"
     },
     "datePublished": article.publishedTime,
     "dateModified": article.modifiedTime || article.publishedTime,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": article.url || `https://daniel-wenz.vercel.app${pathname}`
+      "@id": article.url || `https://www.danielwenz.de${pathname}`
     }
   } : null
 
