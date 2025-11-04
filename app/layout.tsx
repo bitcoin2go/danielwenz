@@ -15,7 +15,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.danielwenz.de/'),
+  metadataBase: new URL('https://danielwenz.de/'),
   alternates: {
     canonical: '/'
   },

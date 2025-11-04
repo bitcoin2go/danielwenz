@@ -22,12 +22,12 @@ export function StructuredData({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "https://www.danielwenz.de/#website",
+    "@id": "https://danielwenz.de/#website",
     "name": "Daniel Wenz",
-    "url": "https://www.danielwenz.de",
+    "url": "https://danielwenz.de",
     "description": "Co-Founder von Finanzwissen GmbH und Founder von Bitcoin2Go. Spezialist für Kryptowährungsmärkte, Finanzanalysen und -bildung. Master-Absolvent in Wirtschaftsingenieurwesen am KIT.",
     "publisher": {
-      "@id": "https://www.danielwenz.de/#person"
+      "@id": "https://danielwenz.de/#person"
     },
     "inLanguage": ["de", "en"]
   }
@@ -35,13 +35,13 @@ export function StructuredData({
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://www.danielwenz.de/#person",
+    "@id": "https://danielwenz.de/#person",
     "name": "Daniel Wenz",
     "alternateName": "Daniel Wenz",
-    "url": "https://www.danielwenz.de",
+    "url": "https://danielwenz.de",
     "image": [
-      "https://www.danielwenz.de/daniel-wenz.png",
-      "https://www.danielwenz.de/daniel-wenz-und-mirco-recksiek.jpg"
+      "https://danielwenz.de/daniel-wenz.png",
+      "https://danielwenz.de/daniel-wenz-und-mirco-recksiek.jpg"
     ],
     "description": "Daniel Wenz ist ein deutscher Unternehmer und Krypto-Experte, der sich auf die Bereiche Finanzbildung und Kryptowährungen spezialisiert hat. Als Co-Founder der Finanzwissen GmbH und Founder der Bitcoin2Go GmbH hat er zwei der führenden Plattformen im deutschsprachigen Fintech-Bereich aufgebaut. Mit einem Master-Abschluss in Wirtschaftsingenieurwesen am KIT mit Note 1,0 bringt er sowohl akademische Exzellenz als auch praktische Unternehmererfahrung mit.",
     "sameAs": [
@@ -111,7 +111,7 @@ export function StructuredData({
     "givenName": "Daniel",
     "familyName": "Wenz",
     "mainEntityOfPage": {
-      "@id": "https://www.danielwenz.de/#webpage"
+      "@id": "https://danielwenz.de/#webpage"
     }
   }
 
@@ -150,12 +150,12 @@ export function StructuredData({
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://www.danielwenz.de/#webpage",
-    "url": "https://www.danielwenz.de",
+    "@id": "https://danielwenz.de/#webpage",
+    "url": "https://danielwenz.de",
     "name": "Daniel Wenz - Offizielle Seite",
     "inLanguage": ["de", "en"],
     "mainEntity": {
-      "@id": "https://www.danielwenz.de/#person"
+      "@id": "https://danielwenz.de/#person"
     }
   }
 
@@ -173,19 +173,19 @@ export function StructuredData({
     "image": article.image ? [article.image] : undefined,
     "author": {
       "@type": "Person",
-      "@id": "https://www.danielwenz.de/#person",
+      "@id": "https://danielwenz.de/#person",
       "name": article.author || "Daniel Wenz"
     },
     "publisher": {
       "@type": "Person",
-      "@id": "https://www.danielwenz.de/#person",
+      "@id": "https://danielwenz.de/#person",
       "name": "Daniel Wenz"
     },
     "datePublished": article.publishedTime,
     "dateModified": article.modifiedTime || article.publishedTime,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": article.url || `https://www.danielwenz.de${pathname}`
+      "@id": article.url || `https://danielwenz.de${pathname}`
     }
   } : null
 

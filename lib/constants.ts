@@ -1,1 +1,1 @@
-export const WEBSITE_URL = 'https://www.danielwenz.de'
+export const WEBSITE_URL = 'https://danielwenz.de'

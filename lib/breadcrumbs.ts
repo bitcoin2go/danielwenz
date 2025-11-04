@@ -7,7 +7,7 @@ export type BreadcrumbItem = {
  * Generates breadcrumb list for a given path
  */
 export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
-  const baseUrl = 'https://www.danielwenz.de'
+  const baseUrl = 'https://danielwenz.de'
   const items: BreadcrumbItem[] = [
     {
       name: 'Startseite',
