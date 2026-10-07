@@ -30,18 +30,18 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Finanzwissen GmbH',
-    description:
-      'Die führende Bildungsplattform für junge Menschen, die sich mit Finanzen und privatem Vermögensaufbau beschäftigen möchten.',
-    link: 'https://finanzwissen.de',
-    image: '/images/finanzwissen.webp',
-    id: 'project1',
-  },
-  {
     name: 'Bitcoin2Go GmbH',
     description: 'Das führende Kryptovergleichs- und Newsportal im DACH-Raum mit über 7 Mio. jährlichen Page Views und 300.000+ Social-Media-Abonnenten.',
     link: 'https://bitcoin-2go.de',
     image: '/images/bitcoin2go.webp',
+    id: 'project1',
+  },
+  {
+    name: 'Finanzwissen GmbH',
+    description:
+      'Finanzbildungs- und Vergleichsplattform. 2026 mehrheitlich an die Börsenmedien AG verkauft.',
+    link: 'https://finanzwissen.de',
+    image: '/images/finanzwissen.webp',
     id: 'project2',
   },
 ]
@@ -68,6 +68,12 @@ export const EDUCATION: Education[] = [
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    title: 'Börsenmedien AG übernimmt Mehrheit an der Finanzwissen GmbH',
+    description: 'Mehrheitsübernahme der von Daniel Wenz mitgegründeten Finanzwissen GmbH',
+    link: 'https://www.presseportal.de/pm/60313/6278030',
+    uid: 'blog-5',
+  },
   {
     title: 'Bitcoin im Höhenflug: Zwischen Rekorden, Regulierung und Reife',
     description: 'Analyse der aktuellen Bitcoin-Entwicklung und Marktlage',

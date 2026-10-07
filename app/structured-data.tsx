@@ -25,7 +25,7 @@ export function StructuredData({
     "@id": "https://danielwenz.de/#website",
     "name": "Daniel Wenz",
     "url": "https://danielwenz.de",
-    "description": "Co-Founder von Finanzwissen GmbH und Founder von Bitcoin2Go. Spezialist für Kryptowährungsmärkte, Finanzanalysen und -bildung. Master-Absolvent in Wirtschaftsingenieurwesen am KIT.",
+    "description": "Founder von Bitcoin2Go und Co-Founder der Finanzwissen GmbH, die 2026 mehrheitlich an die Börsenmedien AG verkauft wurde. Spezialist für Kryptowährungsmärkte, Finanzanalysen und -bildung. Master-Absolvent in Wirtschaftsingenieurwesen am KIT.",
     "publisher": {
       "@id": "https://danielwenz.de/#person"
     },
@@ -43,14 +43,14 @@ export function StructuredData({
       "https://danielwenz.de/daniel-wenz.png",
       "https://danielwenz.de/daniel-wenz-und-mirco-recksiek.jpg"
     ],
-    "description": "Daniel Wenz ist ein deutscher Unternehmer und Krypto-Experte, der sich auf die Bereiche Finanzbildung und Kryptowährungen spezialisiert hat. Als Co-Founder der Finanzwissen GmbH und Founder der Bitcoin2Go GmbH hat er zwei der führenden Plattformen im deutschsprachigen Fintech-Bereich aufgebaut. Mit einem Master-Abschluss in Wirtschaftsingenieurwesen am KIT mit Note 1,0 bringt er sowohl akademische Exzellenz als auch praktische Unternehmererfahrung mit.",
+    "description": "Daniel Wenz ist ein deutscher Unternehmer und Krypto-Experte, der sich auf die Bereiche Finanzbildung und Kryptowährungen spezialisiert hat. Als Founder der Bitcoin2Go GmbH und Co-Founder der Finanzwissen GmbH hat er zwei der führenden Plattformen im deutschsprachigen Fintech-Bereich aufgebaut. Die Finanzwissen GmbH wurde 2026 mehrheitlich an die Börsenmedien AG verkauft. Mit einem Master-Abschluss in Wirtschaftsingenieurwesen am KIT mit Note 1,0 bringt er sowohl akademische Exzellenz als auch praktische Unternehmererfahrung mit.",
     "sameAs": [
       "https://www.linkedin.com/in/daniel-wenz/",
       "https://www.linkedin.com/in/daniel-wenz/?originalSubdomain=de",
       "https://bitcoin-2go.de/author/daniel-wenz/",
       "https://finanzwissen.de/autor/daniel/"
     ],
-    "jobTitle": ["Co-Founder Finanzwissen GmbH", "Founder Bitcoin2Go GmbH", "Fintech Entrepreneur", "Krypto-Experte"],
+    "jobTitle": ["Founder Bitcoin2Go GmbH", "Co-Founder Finanzwissen GmbH", "Fintech Entrepreneur", "Krypto-Experte"],
     "email": "daniel@bitcoin-2go.de",
     "nationality": {
       "@type": "Country",
@@ -87,21 +87,21 @@ export function StructuredData({
     "hasOccupation": [
       {
         "@type": "Occupation",
-        "name": "Co-Founder",
-        "occupationLocation": {
-          "@type": "Place",
-          "name": "Finanzwissen GmbH"
-        },
-        "description": "Die führende Bildungsplattform für junge Menschen, die sich mit Finanzen und privatem Vermögensaufbau beschäftigen möchten."
-      },
-      {
-        "@type": "Occupation",
         "name": "Founder",
         "occupationLocation": {
           "@type": "Place",
           "name": "Bitcoin2Go GmbH"
         },
         "description": "Das führende Kryptovergleichs- und Newsportal im DACH-Raum mit über 7 Mio. jährlichen Page Views und 300.000+ Social-Media-Abonnenten."
+      },
+      {
+        "@type": "Occupation",
+        "name": "Co-Founder",
+        "occupationLocation": {
+          "@type": "Place",
+          "name": "Finanzwissen GmbH"
+        },
+        "description": "Finanzbildungs- und Vergleichsplattform. 2026 mehrheitlich an die Börsenmedien AG verkauft."
       }
     ],
     "award": [
@@ -120,7 +120,7 @@ export function StructuredData({
     "@type": "Organization",
     "name": "Finanzwissen GmbH",
     "url": "https://finanzwissen.de",
-    "description": "Die führende Bildungsplattform für junge Menschen, die sich mit Finanzen und privatem Vermögensaufbau beschäftigen möchten.",
+    "description": "Finanzbildungs- und Vergleichsplattform. 2026 mehrheitlich an die Börsenmedien AG verkauft.",
     "founder": {
       "@type": "Person",
       "name": "Daniel Wenz"
@@ -212,13 +212,13 @@ export function StructuredData({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(organizationSchema)
+          __html: JSON.stringify(bitcoin2GoSchema)
         }}
       />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(bitcoin2GoSchema)
+          __html: JSON.stringify(organizationSchema)
         }}
       />
       {breadcrumbSchema && (

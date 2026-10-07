@@ -70,13 +70,13 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-            Co-Founder von Finanzwissen GmbH und Founder von Bitcoin2Go. 
-            Spezialist für Kryptowährungsmärkte, Finanzanalysen und -bildung. 
+            Founder von Bitcoin2Go und Co-Founder der Finanzwissen GmbH, die 2026 mehrheitlich an die Börsenmedien AG verkauft wurde.
+            Spezialist für Kryptowährungsmärkte, Finanzanalysen und -bildung.
             Master-Absolvent in Wirtschaftsingenieurwesen am KIT mit Note 1,0.
           </p>
           <p className="text-zinc-600 dark:text-zinc-400">
-            Privat lebe ich 6 Monate im Jahr in Südostasien, bin leidenschaftlicher Gravel-Bikepacker 
-            (auch mal 2.000-3.000km) und sportlich aktiv, zum Beispiel beim Paddeln.
+            Privat lebe ich in Deutschland und in Luang Prabang, Laos. Ich bin leidenschaftlicher Gravel-Bikepacker,
+            unter anderem auf der Trans Dinarica und dem EuroVelo 13, und sportlich aktiv, zum Beispiel beim Paddeln.
           </p>
         </div>
       </motion.section>

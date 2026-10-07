@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: 'Daniel Wenz - Krypto-Experte & Fintech-Gründer',
     template: '%s | Daniel Wenz'
   },
-  description:  'Co-Founder von Finanzwissen GmbH und Founder von Bitcoin2Go. Spezialist für Kryptowährungsmärkte, DeFi und Finanzbildung.',
+  description: 'Founder von Bitcoin2Go und Co-Founder der Finanzwissen GmbH (Mehrheitsverkauf an die Börsenmedien AG, 2026). Spezialist für Kryptowährungsmärkte, DeFi und Finanzbildung.',
 };
 
 const geist = Geist({

@@ -27,6 +27,15 @@ const TRANSITION_SECTION = {
 
 // Medienauftritte nach Jahren sortiert
 const mediaAppearances = {
+  "2026": [
+    {
+      title: "Börsenmedien AG übernimmt Mehrheit an der Finanzwissen GmbH",
+      outlet: "presseportal.de",
+      date: "Mai 2026",
+      link: "https://www.presseportal.de/pm/60313/6278030",
+      description: "Mehrheitsübernahme der von Daniel Wenz mitgegründeten Finanzwissen GmbH"
+    }
+  ],
   "2025": [
     {
       title: "World Liberty Finance (WLFI): Was steckt hinter dem Trump-Projekt?",
@@ -200,9 +209,10 @@ export default function PressePage() {
         <div className="prose prose-zinc dark:prose-invert max-w-none">
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
             Daniel Wenz ist ein deutscher Unternehmer und Krypto-Experte, der sich auf die 
-            Bereiche Finanzbildung und Kryptowährungen spezialisiert hat. Als Co-Founder 
-            der Finanzwissen GmbH und Founder der Bitcoin2Go GmbH hat er zwei der führenden 
-            Plattformen im deutschsprachigen Fintech-Bereich aufgebaut.
+            Bereiche Finanzbildung und Kryptowährungen spezialisiert hat. Als Founder 
+            der Bitcoin2Go GmbH und Co-Founder der Finanzwissen GmbH hat er zwei der führenden 
+            Plattformen im deutschsprachigen Fintech-Bereich aufgebaut. Die Finanzwissen GmbH 
+            wurde 2026 mehrheitlich an die Börsenmedien AG verkauft.
           </p>
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4">
             Mit einem Master-Abschluss in Wirtschaftsingenieurwesen am Karlsruher Institut 
@@ -214,8 +224,8 @@ export default function PressePage() {
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">
             Bitcoin2Go ist mit über 7 Millionen jährlichen Page Views und mehr als 300.000 
             Social-Media-Abonnenten eine der führenden Krypto-Plattformen im DACH-Raum. 
-            Finanzwissen.de hat sich als wichtige Bildungsplattform für junge Menschen 
-            etabliert, die sich mit Finanzen und privatem Vermögensaufbau beschäftigen möchten.
+            Finanzwissen.de hat sich als Bildungs- und Vergleichsplattform für Finanzen 
+            etabliert und wurde 2026 mehrheitlich von der Börsenmedien AG übernommen.
           </p>
           
           {/* Team-Foto */}
@@ -348,7 +358,7 @@ export default function PressePage() {
                 Logo-Materialien
               </h4>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                Logos von Finanzwissen GmbH und Bitcoin2Go GmbH
+                Logos von Bitcoin2Go GmbH und Finanzwissen GmbH
               </p>
             </div>
           </div>
